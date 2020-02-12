@@ -9,6 +9,10 @@ Author: Joares Miranda
 /* 
 * Reset
 */
+
+
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +28,7 @@ Author: Joares Miranda
 /* 
 * Global
 */
+
 body {
     color: #FFF;
     font-family: 'Julius Sans One', sans-serif;
@@ -42,6 +47,7 @@ body {
 .container {
     width: 100%;
     height: 100vh;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,27 +56,51 @@ body {
 }
 .container__header {
     border-bottom: 1px solid #FFF;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
-
+@media (min-width:768px) {
+    .container__header {
+        margin-bottom: 2rem;
+    }
+}
 .container__header__title {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 400;
 }
-
+@media (min-width:768px) {
+    .container__header__title {
+        font-size: 4.5rem;
+    }  
+}
 .container__header__description {
-    font-size: 1.25rem;
-    margin: 1rem 0 2rem 0;
+    font-size: 0.8rem;
+    margin: 0.5rem 0 1rem 0;
+}
+@media (min-width:768px) {
+    .container__header__description {
+        font-size: 1.25rem;
+        margin: 1rem 0 2rem 0;
+    }
 }
 
 .container__footer__title {
-    font-size: 1.125rem;
+    font-size: 0.7rem;
     font-weight: 400;
+}
+@media (min-width:768px) {
+    .container__footer__title {
+        font-size: 1.125rem;
+    }
 }
 .container__footer__group-links {
     display: flex;
     list-style: none;
 }
 .container__footer__group-links li {
-    margin: 1rem;
+    margin: 0.5rem;
+}
+@media (min-width:768px) {
+    .container__footer__group-links li {
+        margin: 1rem;
+    }
 }
