@@ -5,4 +5,4 @@ Página de apresentação com link para as principais redes com minhas informaç
 * <a href="https://joaresmiranda.github.io">Acesse a página</a>
 
 ## Screenshot
-![Screenshot Desktop](./design/home.png)
+![Screenshot Desktop](./design/home.jpg)
