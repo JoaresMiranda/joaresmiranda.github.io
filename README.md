@@ -1,5 +1,8 @@
 # Landing page
-Landing page com meus principais links profissionais
+Página de apresentação com link para as principais redes com minhas informações profissionais
 
 ## Link
-- <a href="https://joaresmiranda.github.io">Acesse a página</a>
+* <a href="https://joaresmiranda.github.io">Acesse a página</a>
+
+## Screenshot
+!(./design/home.png)
